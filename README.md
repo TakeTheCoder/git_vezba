@@ -1,14 +1,14 @@
-#TakeTheCoder kurs
+# TakeTheCoder kurs
 
 Ovo je TakeTheCoder kurs
 
-##Milan Perisic
+## Milan Perisic
 
 Ja sam Milan Perisic i trenutno pohadjam kurs na TakeTheCoder.
 
 Trenutno ucimo git komande.
 
-#Koje git komande ste koristili da bi poslali Vas projekat ovde?
+# Koje git komande ste koristili da bi poslali Vas projekat ovde?
 
 ```
 git init
