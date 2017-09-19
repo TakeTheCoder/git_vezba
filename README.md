@@ -8,11 +8,11 @@ Trenutno ucimo git komande.
 mkdir projekti
 git clone git@github.com:TakeTheCoder/git_vezba.git git_vezbe
 cd git_vezbe
-git checkout -b feature/nikola-sekaric
+git checkout -b feature/nikol-sekaric
 git branch
 nano README.md
 git add README.md
 git commit -m 'Dodavanje mog Readme fajla'
-git push -u origin feature/davor-ilic
+git push -u origin feature/nikol-sekaric
 ```
 
