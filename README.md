@@ -8,9 +8,13 @@ Trenutno ucimo git komande.
 ## Koje git komande ste koristili da bi poslali Vas projekat ovde?
 
 ```
-git clone <> git vezba
-cd git_vezba
-git checkout -b feature/Milan-Radenkovic
-nano README.md
+git clone git@github.com:TakeTheCoder/git_vezba.git vezba
+git checkout -b feature/milan-radenkovic
+git branch
+git status
+git add .
+git commit -m “Dodavanje mog README fajla”
+git push -u origin feature/milan-radenkovic
+
 ```
 
