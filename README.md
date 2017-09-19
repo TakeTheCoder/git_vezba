@@ -6,9 +6,9 @@ Ja sam Nemanja Filipovic  i trenutno pohadjam kurs na TakeTheCoder.
 Trenutno ucimo git komande.
 ## Koje git komande ste koristili da bi poslali Vas projekat ovde?
 ```
-git clone <> git_vezba
+git clone <git@github.com:TakeTheCoder/git_vezba.git> git_vezba
 cd git_vezba/
-git checkout -b featur/ Nemanja-Filipovic
+git checkout -b featur/nemanja-filipovic
 ls 
 nano README.md
 CTRL + X , SHIFT + Y , ENTER
