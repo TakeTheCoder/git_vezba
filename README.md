@@ -11,7 +11,7 @@ git clone git@github.com:TakeTheCoder/git_vezba.git
 cd projekti/git_vezba
 git checkout -b Feature/aleksandar_ristic
 nano README.md
-
-
-```
+git add README.md
+git commit -m “Dodavanje mog README fajla”
+git push -u origin Feature/aleksandar_ristic
 
