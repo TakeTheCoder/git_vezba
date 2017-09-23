@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registruj se</title>
+</head>
+<body>
+	<h1>Postani clan naseg Sajta</h1>
+	<p>Popuni formular u par koraka!</p>
+	<form action="/registracija">
+		<label for="ime">Ime:</label>
+		<input type="text" name="ime" id="ime" placeholder="Vase Ime"
+		required autofocus>
+		<br />
+
+		<label for="prezime">Prezime:</label>
+		<input type="text" name="prezime" id="prezime" placeholder="Vase Prezime"
+		required >
+		<br />
+
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" placeholder="Vas email"
+		required >
+		<br />
+
+		<label for="password">Password:</label>
+		<input type="password" name="password" id="password" placeholder="Vas password"
+		required minlength="8">
+		<br />
+
+		<label for="potvrdipassword">Potvrdite Vas Password:</label>
+		<input type="password" name="password" id="potvrdipassword" placeholder="Potvrdite Vas password"
+		required minlength="8">
+		<br />
+
+		<label for="url">Web Stranica:</label>
+		<input type="url" name="url" id="url" placeholder="Web Stranica"
+		>
+		<br />
+
+		<label for="number">Vase Godine:</label>
+		<input type="number" name="number" id="number" placeholder="Koliko godina imate"
+		required  min="16" max="80">
+		<br />
+
+		<label for="date">Datum Rodjenja:</label>
+		<input type="date" name="date" id="date" placeholder="Vas datum rodjenja"
+		required >
+		<br />
+
+		<label>Vas development skill:</label>
+		<label for="senior">Senior</label>
+		<input type="radio" name="poznavanje" value="senior" id="senior">
+		<label for="midjor">Midiior</label>
+		<input type="radio" name="poznavanje" value="midior" id="midior" >
+		<label for="senior">Junior</label>
+		<input type="radio" name="poznavanje" value="junior" id="junior" >
+		<br />
+
+		<label for"texarea">Upisi svoju biografiju.</label>
+		<textarea name="biografija" id="biografija" required=""></textarea>
+		<br />
+
+		<label for="reklama">Kako ste culi za nas?</label>
+		<select id="reklama">
+			<option value="novine">Novine</option>
+			<option value="facebook">Facebook</option>
+			<option value="televizija">Televizija</option>
+			<option value="radio">Radio</option>
+		</select>
+		<br />
+
+
+		<button type="submit">POSALJI</button>
+		<button type="reset">ODUSTANI</button>
+
+
+
+	</form>
+
+</body>
+</html>
