@@ -8,19 +8,66 @@
     <img src="images/vuk.png" alt="vuk" />
     <h1>Vuk</h1>
     <hr />
+
     <h2>Sadrzaj:</h2>
     <ol>
       <li>O vukovima</li>
       <li>Zanimljivosti</li>
+      <li>Ljubitelj vukova?</li>
     </ol>
     <hr />
+
     <h3>O vukovima</h3>
     <p>Vuk (Canis lupus) је sisar iz porodice Canidae. Sivi vuk je nekada naseljavao velike delove Severne Amerike, Evrope, Azije i Bliskog Istoka, dok je danas, zbog masovnog izlova i uništenja staništa, prisutan na samo nekim navedenim područjima i to u puno manjem broju.</p>
     <p>Za dodatne informacije <a href="about.html"><button type="button" name="button">kliknite</button></a></p>
+
     <h3>Zanimljivosti</h3>
     <p>Kako bi ste saznali kliknite na slike</p>
     <a href="https://www.youtube.com/watch?v=op7fRsvWowA" target="_blank"><img src="images/urlikmladi.png" alt="urlik" style="width: 200px; height: 150px;"></a>
     <a href="https://www.youtube.com/watch?v=JhNwHC-wbCo" target="_blank"><img src="images/runwolf.png" alt="urlik" style="width: 200px; height: 150px;"></a>
+
+    <h3>Ako ste ljubitelj vukova popunite formular</h3>
+    <form action="/registracija" id="reg_korisnika">
+      <label for="firstname">Ime</label><br />
+      <input type="text" name="firstname" id="firstname" placeholder="Upisite Vase ime..." autofocus maxlength="10"><br />
+      <label for="lastname">Prezime</label><br />
+      <input type="text" name="lastname" id="lastname" placeholder="Upisite Vase prezime..."><br />
+      <label for="email">Email</label><br />
+      <input type="email" name="email" id="email" placeholder="imeprezime@vukovi.rs" required pattern=".+@+vukovi.rs"><br />
+      <label for="password">Lozinka</label><br />
+      <input type="password" name="password" id="password" placeholder="upisite vasu lozinku"><br />
+      <label for="check_password">Potvrda lozinke</label><br />
+      <input type="password" name="check_password" id="check_password" placeholder="potvrdite vasu lozinku"><br />
+      <br />
+
+      <label for="years">Koliko imate godina?</label><br />
+      <input type="number" name="years" id="years" step="1" min="16" max="100"><br />
+
+      <label for="gender">Ja sam:</label>
+      <input type="radio" name="gender" value="male" checked> Vuk
+      <input type="radio" name="gender" value="female"> Vucica<br />
+      <br />
+      <label for="favorite">Omiljen vuk?</label>
+      <select id="favorite">
+        <option value="crni">Crni</option>
+        <option value="sivi">Sivi</option>
+        <option value="beli">Beli</option>
+      </select>
+      <br />
+      <label for="ljubav">Koliko volite vukove:</label><br />
+      <input type="range" name="ljubav" id="ljubav" min="0" max="100" step="10"><br />
+      <br />
+      <label for="meeting">Da li ste imali susret sa vukovima?</label>
+      <input type="checkbox" name="meeting" value="meeting" id="meeting"><br />
+      <label for="datum">Kada je to bilo?</label>
+      <input type="date" name="datum" id="datum"><br />
+      <label for="iskustvo">Ako ste imali opisite:</label><br />
+      <textarea name="iskustvo" id="iskustvo" rows="5" cols="30"></textarea><br />
+      <br />
+
+      <input type="submit" value="Posalji">
+      <input type="reset" value="Resetuj">
+    </form>
 
   </body>
 </html>
