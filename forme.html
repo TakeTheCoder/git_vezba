@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forme</title>
+</head>
+<body>
+
+<h2>Form types exercise</h2>
+
+<fieldset>
+<legend>Different types of forms</legend>
+<form action="">
+
+<br />
+
+<label for="name">Name</label>
+<input type="text" name="name" id="name" placeholder="Type your name" />
+
+<br />
+<br />
+
+<label for="sur">Sur name</label>
+<input type="text" name="sur" id="sur" placeholder="Type your surname" />
+
+<br />
+<br />
+
+	
+<label for="email">Email</label>
+<input type="email" name="email" id="email" placeholder="Enter your e-mail" />
+
+<br />
+<br />
+
+<label for="password">Password</label>
+<input type="password" name="password" id="password" placeholder="Type password" />
+
+<br />
+<br />
+
+<label for="password confirm">Password confirm</label>
+<input type="password" name="password confirm" id="pass" />
+
+<br />
+<br />
+
+<label for="url">Web page</label>
+<input type="url" name="url" id="url" />
+
+<br />
+<br />
+
+<label for="age">Age</label>
+<input type="number" name="age" id="age" />
+
+<br />
+<br />
+
+
+<label for="date">Date</label>
+<input type="date" name="some_date" id="date" />
+
+<br />
+<br />
+
+<label for="time">Time</label>
+<input type="time" name="some_time" id="time" />
+
+<br />
+<br />
+
+<label for="">Gender?</label>=
+<label>Male</label>
+<input type="radio" name="gender" value="Male" />
+
+<label>Female</label>
+<input type="radio" name="gender" value="Female" />
+
+<br />
+<br />
+
+<label for="older">Older than 18 years?</label>
+<input type="checkbox" name="older" id="older" />
+
+<br />
+<br />
+
+<label for="food">Chose your food:</label>
+<select>
+	<option value="pljeskavica">Pljeskavica</option>
+	<option value="cevap">Cevap</option>
+	<option value="vesalica">Vesalica</option>
+	<option value="ustipak">Ustipak</option>
+</select>
+
+<br />
+<br />
+
+<label for="message">Message</label>
+<textarea name="message" id="message"></textarea>
+
+<br />
+<br />
+
+<input type="submit" name="send" value="Send" />
+
+<input type="reset" name="reset" value="Reset" />
+
+<br />
+<br />
+
+<label for="range">Pick a range</label>
+<input type="range" name="amountRange" min="0" max="50" step="10" value="0" oninput="this.form.amountInput.value=this.value" />
+<input type="number" name="amountInput" min="0" max="50" value="0" oninput="this.form.amountRange.value=this.value" />
+
+<br />
+<br />
+
+<label>Select your favorite color:</label>
+<input type="color" name="favcolor" value="#ff0000">
+
+
+
+</form>
+</fieldset>
+
+</body>
+</html>
