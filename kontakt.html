@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kontakt</title>
+  </head>
+  <body>
+    <a href="index.html">Vrati se na pocetnu stranicu</a>
+
+    <h1>Kontakt</h1>
+
+    <form action="/registracija" id="reg_korisnika">
+      <label for="firstname">Ime</label><br />
+      <input type="text" name="firstname" id="firstname" placeholder="Upisite Vase ime..." autofocus><br />
+
+      <label for="lastname">Prezime</label><br />
+      <input type="text" name="lastname" id="lastname" placeholder="Upisite Vase prezime..."><br />
+
+      <label for="email">Email</label><br />
+      <input type="email" name="email" id="email" placeholder="example@email.rs" required pattern=".+@+.+.rs"><br />
+
+      <label for="message">Poruka:</label><br />
+      <textarea name="message" id="message" rows="5" cols="25" minlength="10" maxlength="100"></textarea><br />
+
+      <label for="age">Imam vise od 18 godina?</label>
+      <input type="checkbox" name="age" id="age" checked><br /><br />
+
+      <input type="submit" name="submit" value="Posalji" />
+    </form>
+  </body>
+</html>
