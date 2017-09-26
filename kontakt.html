@@ -5,6 +5,7 @@
 </head>
 <body>	
 	<a href="index.html">Vrati se nazad</a>
+  <a href="konkurs.html">Konkurisi za posao</a>
 	<h1>Kontak</h1>
 	<form action="">
 		<label for="ime">Ime:</label>
@@ -19,7 +20,7 @@
 
 		<label for="email">Email:</label>
 		<input type="email" name="email" id="email" required>
-		<br />.
+		<br />
 		<br />
 
 		<label for="poruka">Vas Poruka:</label>
@@ -28,11 +29,14 @@
 		<br />
 
 		<label for="punolestvo">Da li imas 18 godina?</label>
-		<input type="checkbox" name="punolestvo" id="punolestvo" required="">
+		<input type="checkbox" name="punolestvo" value="osamnaesti-rodj" inputmode="punolestvo"  required checked="">
 		<br />
 		<br />
 
+		
+
 		<input type="submit" name="submit" value="Posalji">
+    <input type="reset" name="reset" value="Ponisti">
 	</form>
 
 </body>
