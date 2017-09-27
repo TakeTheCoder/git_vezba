@@ -1,24 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Milan Radenkovic</title>
+	<title>Sve za dinar</title>
 </head>
 <body>
-	<a href="kontakt.html">Kontaktirajte nas</a>
-  <h1>Dobrodosli na moju stranicu</h1>
 
-  <p>Ja sam <b>Milan Radenkovic</b> i zivim u <b>Prokuplju</b>. Imam <b>28</b> godina i trenutno ucim <b>HTML</b>. Ovo su ocene koje sam imao na testu:</p>
-<ul>
-  <li>Ubuntu komande <b>4</b></li>
-  <li>Git komande <b>5</b></li>
-  <li>HTML <b>3</b></li>
-</ul>
-<p>A ovo su osobe koje su najbolje uradile HTML test poredjane po oceni:</p>
-<ol>
-  <li>Pera <b>5</b></li>
-  <li>Mika <b>4</b></li>
-  <li>Zika <b>3</b></li>
+<h1>Sve za dinar</h1>
+<h2>Sve Proizvodi</h2>
 
-</ol>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Sifra</th>
+      <th>Ime</th>
+      <th>Cena</th>
+      <th>Kategorija</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>125</td>
+      <td>Cokolada</td>
+      <td>200</td>
+      <td>Slatkisi</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Cokolada</h3>
+<p>Cokolada je proizvedena u fabrici <b>Hisar</b> Prokuplje</p>
+
+<h2>Naruci</h2>
+<form action="" id="forma">
+
+  
+<table>
+  <tr>
+    <td><label for="ime">Ime Proizvoda</label></td>
+    <td><label for="kolicina">kolicina</label></td>
+  </tr>  
+  <tr>
+    <td><input type="text" name="ime" id="ime" placeholder="Ime Proizvoda" required /></td>
+    <td><input type="number" name="kolicina" id="kolicina" placeholder="Kolicina" required /></td>
+  </tr>
+  <tr>
+    <td><label for="email">Email</label></td>
+    <td><label for="broj_telefona">Broj telefona</label></td>
+  </tr>
+  <tr>
+    <td><input type="email" name="email" id="email" placeholder="Email" required /></td>
+    <td><input type="number" name="broj_telefona" id="broj_telefona" placeholder="Broj telefona" /></td>
+  </tr>
+</table>
+  <label for="kucna_adresa">Posalji na kucnu adresu</label>
+  <input type="checkbox" name="kucna_adresa" id="kucna_adresa" checked />
+</br>
+<input type="submit" name="submit" value="POSALJI" />
+</form>
 </body>
 </html>
