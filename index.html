@@ -44,21 +44,24 @@
         <p>Domaca paprika za pravljenje ajvara. Sadrzi mali procenat vode i nije ljuta.</p>
       <h2>Naruci</h2>
         <form>
+    <div>
            <label type="ime">Ime Proizvoda</label>
-          <input type="ime" name="ime" id="ime" placeholder="Ime Proizvoda" required />
-           
-           <label type="kolicina">Kolicina</label>
-          <input type="number" name="kolicina" id="kolicina" placeholder="Kolicina" required />
-
            <br />
-
-           <label type="email">Email adresa</label>
-          <input type="email" name="email" id="email" placeholder="Email adresaa" required />
-          
+          <input type="ime" name="ime" id="ime" placeholder="Ime Proizvoda" id="ime" /><br />
            
-           <label type="broj">Broj Telefona</label>          
-          <input type="number" name="broj" id="broj" placeholder="Broj Telefona" />
+           <label type="kolicina">Kolicina</label><br />
+          <input type="number" name="kolicina" id="kolicina" placeholder="Kolicina" required />
+    </div>
+           <br />
+    <div>
+           <label type="email">Email adresa</label><br />     
+           <input type="email" name="email" id="email" placeholder="Email adresaa" required />
+          
+           <br />
+           <label type="broj">Broj Telefona</label><br /> 
+           <input type="number" name="broj" id="broj" placeholder="Broj Telefona" />
           <br />
+    </div>
 
            <label type="posalji">Posalji na kucnu adresu?</label> 
           <input id="checkBox" type="checkbox" id="posalji" checked />
@@ -66,16 +69,6 @@
           <br />
        
            <input type="submit" value="Naruci">
-        </form>
-
-
-
-
-
-
-
-
-
-      
+        </form>     
     </body>
 </html>
