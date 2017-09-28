@@ -1,28 +1,89 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Milan Perisic</title>
-  </head>
+<head>
+	<title>Sve za dinar</title>
+</head>
   <body>
-    <a href="kontakt.html">Kontakt stranica</a>
+    <h1>Sve za dinar</h1>
+    <h3>Svi proizvodi</h3>
 
-    <h1>Dobrodosli na moju stranicu</h1>
+    <table>
+      <tr>
+        <th>Sifra</th>
+        <th>Ime</th> 
+        <th>Cena</th>
+        <th>Kategorija</th>
+      </tr>
+      <tr>
+        <td>0001</td>
+        <td>Jakna</td>
+        <td>100</td>
+        <td>Sport</td>
+      </tr>
+      <tr>
+        <td>0002</td>
+        <td>Šal</td>
+        <td>25</td>
+        <td>Sport</td>
+      </tr>
+      <tr>
+        <td>0003</td>
+        <td>Kapa</td>
+        <td>10</td>
+        <td>Sport</td>
+      </tr>
+      <tr>
+        <td>0004</td>
+        <td>Dres</td>
+        <td>80</td>
+        <td>Sport</td>
+      </tr>
+    </table>
 
-    <p>Ja sam <b>Milan Perisic</b> i zivim u <b>Nisu</b>. Imam <b>25 godina</b> i trenutno ucim <b>HTML</b>.</p>
+    <h4>Jakna</h4>
+    <p>
+      Jakna je muška i ženska odeća koja pokriva gornji deo tela najčešće do struka. Jakne se nose kao deo mode i kao zaštitna odeća.
+    </p>
 
-    <p>Ovo su ocene koje sam imao na testu:</p>
-    <ul>
-      <li>Ubuntu komande <b>1</b></li>
-      <li>Git komande <b>1</b></li>
-      <li>HTML <b>1</b></li>
-    </ul>
+    <h4>Šal</h4>
+    <p>
+      Šal je odevni predmet, koji se nosi oko vrata prilikom umereno niskih i veoma niskih temperatura.
+    </p>
 
-    <p>A ovo su osobe koje su najbolje uradile HTML test poredjane po oceni:</p>
-    <ol>
-      <li>Pera <b>3</b></li>
-      <li>Mika <b>2</b></li>
-      <li>Zika <b>1</b></li>
-    </ol>
+    <h4>Kapa</h4>
+    <p>
+      Kapa je odevni predmet koji se stavlja na glavu i služi za zaštitu od padavina, hladnoće, sunca ali i kao modni detalj. Kape se mogu raditi od razlitih materijala: vuna, platno, koža ili sintetički materijali.
+    </p>
+
+    <h4>Dres</h4>
+    <p>
+      Dres je odevni predmet koji obicno nose sportisti i moze biti kratkih ili dugih rukava u razlicitim bojama.
+    </p>
+
+    <h3>Naruči</h3>
+
+    <form action="/kupovina" id="kupovina">
+      <label for="ime_proizvoda">Ime proizvoda:</label><br />
+      <input type="text" name="ime_proizvoda" id="ime_proizvoda" placeholder="Ime proizvoda..." autofocus maxlength="10" required />
+      <br />
+      <br />
+      <label for="kolicina">Kolicina:</label><br />
+      <input type="number" name="kolicina" id="kolicina" step="1" min="1" placeholder="Kolicina..." required />
+      <br />
+      <br />
+      <label for="email">Email:</label><br />
+      <input type="email" name="email" id="email" placeholder="Email..." required />
+      <br />
+      <br />
+      <label for="telefon">Telefon:</label><br />
+      <input type="tel" name="telefon" id="telefon" placeholder="Telefon..." />
+      <br />
+      <br />
+      <label for="kucna_adresa">Pošalji na kucnu adresu?</label>
+      <input type="checkbox" name="kucna_adresa" id="kucna_adresa" checked />
+      <br />
+      <br />
+      <input type="submit" value="NARUČI" />
+    </form>
   </body>
 </html>
