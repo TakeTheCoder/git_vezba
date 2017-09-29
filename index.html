@@ -1,29 +1,92 @@
 <!DOCTYPE html>
-
+<html lang="">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aleksandar Ristic</title>
-   
+    <title>Sve za dinar</title>
+    
 </head>
 
 <body>
-    <a href="kontakti.html">Kontaktirajte nas</a>
-    <h1>Dobrodosli na moju stranicu</h1>
-    <p>Ja sam <b>Aleksandar Ristic </b> i zivim u <b>Prokuplju</b>. Imam <b>32</b> godina i trenutno ucim <b>HTML</b>. Ovo su ocene koje sam imao na testu: </p>
-    <ul>
-        <li>Ubuntu komande <b>OCENA:</b></li>
-        <li>Git komnde <b>OCENA:</b></li>
-        <li>HTML <b>OCENA:</b></li>
-        
-     </ul>
-    <p>A ovo us osobe koje su najbolje uradile HTML test poredjane po oceni:</p>
-    <ol>
-
-       <li>Pera <b>OCENA:</b></li>
-       <li>Mika <b>OCENA:</b></li>
-       <li>Zika <b>OCENA:</b></li>
-        
-    </ol>
+   <h1>Sve za dinar</h1>
+   <h3>Svi Proizvodi</h3>
+   <table>
+       <thead>
+        <tr>
+            <th>Sifra</th>
+            <th>Ime</th>
+            <th>Cena</th>
+            <th>Kategorija</th>
+        </tr>
+           </thead>
+       <tbody>
+           <tr>
+               <th>100</th>
+               <th>Lampa</th>
+               <th>200</th>
+               <th>Rasveta</th>
+           </tr>
+           <tr>
+               <th>101</th> 
+               <th>Majica</th>  
+               <th>400</th>    
+               <th>Odeca</th> 
+            </tr>
+            <tr>
+                <th>102</th>
+                <th>KSaksija</th>
+                <th>100</th>
+                <th>Ostalo</th>
+            </tr>
+            <tr>
+                <th>103</th>
+                <th>Vaza</th>
+                <th>250</th>
+                <th>Keramicka vaza</th>
+            </tr>
+       </tbody> 
+   </table>
+    <h3>Lampa</h3>
+    <p>Sve vrste lampa za kucnu upotrebu<br>svih dezena i dimenzija.</p>
+    <h3>Majica</h3>
+    <p>Veliki izbor majica u raznim bojama i velicinama<br>svih poznatih proizvodjaca.</p>
+    <h3>Saksija</h3>
+    <p>Saksije svih velicina i oblika<br>u beloj i crnoj boji.</p>
+    <h3>Keramicka vaza</h3>
+    <p>Keramcke vaze od veoma kvalitetnog materijala<br>raznih oblika i velicina,veliki izbor.</p>
+    <br />
+     <h2>Naruci</h2>
+     
+        <form action="proizvodi">
+         <label for="proizvodi">Ime proizvoda:</label>
+         <input list="proizvodi" name="proizvodi"  placeholder="proizvodi">
+  <datalist id="proizvodi" required>
+    <option value="Lampa">
+    <option value="Majica">
+    <option value="Saksija">
+    <option value="Keramicka vaza">
+  </datalist>  
+   <br />
+   <br />
+    Kolicina:
+    <input type="number" name="quantity" min="1" max="5" required>
+      <br />
+      <br />
+    E-mail:
+  <input type="email" name="email" placeholder="Email.." required>
+      <br />
+      <br />
+   <label for="telefon">Broj telefona:</label><br />
+      <input type="telefon" name="telefon" id="telefon" placeholder="Broj tel"/>
+      <br />
+      <br/ >
+   <label for="kucna-dresa">Pošalji na kucnu adresu?</label>
+       <input type="checkbox" name="kucna_-dresa" id="kucna-adresa" checked />
+       <br />
+       <br />
+       <input type="submit" value="NARUCI" />
+    </form>
+    
+   
 </body>
 </html>
