@@ -1,0 +1,32 @@
+h1 {
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  background-color: teal;
+  color: white;
+}
+
+h3{
+  background-color: blue;
+  color:white;
+}
+
+.obojeni-tekst{
+  color: teal;
+}
+
+#reg_korisnika, #firstname, #lastname {
+  color: blue;
+}
+
+#favorite{
+  background-color: blue;
+  color: white;
+}
+
+#dugme{
+  background-color: black;
+  color: white;
+}
