@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><i>Kontakt</i></title>
+	</head>
+
+		<h1><i>Kontakt</i></h1>
+
+			<body>
+				
+				<form action="/kontakt" id="kontakt">
+
+					<label for="ime">Ime:</label>
+					<input type="text" name="ime" id="ime" autofocus/>
+
+					<br />
+
+					<label for="prezime">Prezime:</label>
+					<input type="text" name="prezime" id="prezime" />
+
+					<br />
+
+					<label for="email">E-mail:</label>
+					<input type="email" name="email" id="email" required pattern=".+@-+\.com" />
+
+					<br />
+
+					<label for="poruka">Poruka:</label>
+					<input type="textarea" name="poruka" id="poruka" />
+
+					<br />
+
+					<label for="stariji">Imam više od 18 godina? </label>
+					<input type="checkbox" name="stariji" id="stariji" />
+
+					<br />
+
+					<label for="pošalji">Ime:</label>
+					<input type="submit" name="pošalji" id="pošalji" />
+			</body>
+</html>
