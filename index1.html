@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NEKI NASLOV</title>
+</head>
+<body>
+
+  <h1>NEKI DRUGI NASLOV</h1>
+
+  <form action="/registracija" id="registracija_korisnika">
+
+    <label for="ime">Ime: </label>
+    <input type="text" name="ime" id="ime" placeholder="Unesite Vaše ime" autofocus minlength="4" />
+
+    <br />
+
+    <label for="prezime">Prezime: </label>
+    <input type="text" name="prezime" id="prezime" placeholder="Unesite Vaše prezime"  />
+
+    <br />
+
+    <label for="email">E-mail: </label>
+    <input type="email" name="email" id="email" placeholder="Unesite Vaš e-mail" pattern=".+@.+\.com" />
+
+    <br />
+
+    <label for="password">Password: </label>
+    <input type="password" name="password" id="password" value="neki_password" />
+
+    <br />
+
+    <label for="potvrda_passworda">Potvrda Passworda: </label>
+    <input type="password" name="potvrda_passworda" id="potvrda_passworda" />
+
+    <br />
+
+    <label for="url">Vaša Web stranica: <label>
+    <input type="url" name="url" id="url" value="www.takethecoder.com" />
+
+    <br />
+
+    <label for="godine">Godine: </label>
+    <input type="number" name="godine" id="godine" step="1" min="18" max="100" required="" />
+
+    <br />
+
+    <label for="datum_rođenja">Datum Rođenja: </label>
+    <input type="datetime" name="god_rođenja" id="god_rođenja" />
+
+    <br />
+
+    <label for="datum_necega">Datum Nečega: </label>
+    <input type="date" name="datum_necega" id="datum_rođenja" />
+
+    <br />
+
+    <label for="vreme_necega">Vreme Nečega: </label>
+    <input type="time" name="vreme necega" id="vreme_necega" />
+    
+    <br />
+
+    <label for="pol">Pol? </label>
+
+    <br />
+
+    <label for="pol_muski">Muški? </label>
+    <input type="radio" name="pol" value="muško" id="pol_muski" checked/>
+
+    <label for="pol_zenski">Ženski? </label>
+    <input type="radio" name="pol" value="žensko" id="pol_zenski">
+
+    <br />
+
+    <label for="stariji">Da li ste stariji od 18 godina?</label>
+    <input type="checkbox" name="stariji" value="Stariji" id="stariji" checked>
+
+    <br />
+
+    <label for="kola">Koja kola imate? </label>
+    <select id="kola" multiple>
+      <option value="fiat" selected>Fiat</option>
+      <option value="audi" selected>Audi</option>
+      <option value="bmw">BMW</option>
+    </select>
+
+    <br />
+
+    <label for="biografija">Napišite vašu biografiju: </label>
+    <textarea name="biografija" id="biografija"></textarea>
+
+    <br />
+
+    <input type="submit" name="posalji" value="POSALJI" />
+
+    <input type="reset" name="resetuj" value="RESETUJ" />
+
+    <br />
+
+    <label for=" ne znam">Izaberi vrednost </label>
+    <input type="range" name="ne znam" id="ne znam" min="1" max="5" step="2">
+
+  </form>
+
+</body>
+</html>
