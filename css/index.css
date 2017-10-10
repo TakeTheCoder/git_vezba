@@ -1,4 +1,43 @@
 
+
+a {
+  color: black;
+  background-color: blue;
+}
+
 h1 {
 	color: black;
+}
+
+p {
+  color: blue;
+}
+
+.naradzasta {
+  color: orange;
+  background-color: green;
+}
+
+.bela {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.ljubicasta {
+  color: pink;
+}
+
+#glavni-naslov {
+
+}
+
+#glavna-stranica .ljubicasta .podebljano {
+  color: lightpink;
+}
+
+body {
+  color: black;
 }

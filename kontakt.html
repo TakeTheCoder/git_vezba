@@ -3,50 +3,49 @@
 <head>
 	<title>Kontakt</title>
 
-  <link rel="stylesheet" type="text/css" href="css/global.css" />
-  <link rel="stylesheet" type="text/css" href="css/kontakt.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
 
-
-  <script type="text/javascript" src="js/global.js"></script>
-  <script type="text/javascript" src="js/kontakt.js"></script>
 </head>
 <body>
-	<a href="index.html">Nazad na Glavnu stranicu</a>
-  <h1>Kontakt</h1>
+  <div id="kontakt-stranica">
+    <a href="index.html">Nazad na Glavnu stranicu</a>
 
-  <form action="">
-    <label for="ime">Ime:</label>
-    <input type="text" name="ime" id="ime" autofocus />
+    <h1 id="glavni-naslov">Kontakt</h1>
 
-    <br />
-    <br />
+    <form action="" id="kontakt-forma">
+      <label for="ime" class="naradzasta" >Ime:</label>
+      <input type="text" name="ime" id="ime" autofocus />
 
-    <label for="prezime">Prezime:</label>
-    <input type="text" name="prezime" id="prezime" />
+      <br />
+      <br />
 
-    <br />
-    <br />
+      <label for="prezime" class="naradzasta">Prezime:</label>
+      <input type="text" name="prezime" id="prezime" />
 
-    <label for="email">Email:</label>
-    <input type="email" name="email" id="email" required />
+      <br />
+      <br />
 
-    <br />
-    <br />
+      <label for="email" class="ljubicasta">Email:</label>
+      <input type="email" name="email" id="email" required />
 
-    <label for="poruka">Poruka:</label>
-    <textarea name="poruka" id="poruka" required minlength="40"></textarea>
+      <br />
+      <br />
 
-    <br />
-    <br />
+      <label for="poruka" class="ljubicasta">Poruka:</label>
+      <textarea name="poruka" id="poruka" required minlength="40"></textarea>
 
-    <label for="punoletan-sam">Imam vise od 18 god?</label>
-    <input type="checkbox" name="punoletan-sam" id="punoletan-sam" checked />
+      <br />
+      <br />
 
-    <br />
-    <br />
+      <label for="punoletan-sam">Imam vise od 18 god?</label>
+      <input type="checkbox" name="punoletan-sam" id="punoletan-sam" checked />
+
+      <br />
+      <br />
 
 
-    <input type="submit" name="submit" value="Posalji" />
-  </form>
+      <input type="submit" name="submit" value="Posalji" />
+    </form>
+  </div>
 </body>
 </html>
