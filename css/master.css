@@ -1,19 +1,45 @@
+h1, h2, h3 {
+  color: #fff;
+}
+
+h2, h3 {
+  font-family: Josefin Sans;
+  line-height: 30px;
+}
+
 h1 {
   background-color: black;
-  color: white;
+  text-align: center;
+  letter-spacing: 20px;
+  font-family: Nova Flat;
 }
 
 h2 {
   background-color: teal;
-  color: white;
 }
 
 h3{
   background-color: blue;
-  color:white;
+  font-weight: 300;
 }
 
-.obojeni-tekst{
+a {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+
+}
+
+p {
+  word-spacing: 5px;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+.obojeni-tekst {
   color: teal;
 }
 
@@ -21,12 +47,14 @@ h3{
   color: blue;
 }
 
-#favorite{
-  background-color: blue;
-  color: white;
+#favorite, #dugme {
+  color: #fff;
 }
 
-#dugme{
+#favorite {
+  background-color: blue;
+}
+
+#dugme {
   background-color: black;
-  color: white;
 }
