@@ -57,42 +57,33 @@
 	<p>U toku je nagradna igra. Kupovinom ovog proizvoda ostvarujete mogucnost osvaja vrednih nagrada slanjem sms poruke na broj 22322 sa tekstom CHIPS.</p>
 
 <hr>
-
 	<h3>Naruci</h3>
-
-
 	<form action="" id="zahtev">
-		
-
-		<label for="ime_proizvoda">Ime proizvoda</label>
-		<input type="text" name="ime_proizvoda" id="ime_proizvoda" placeholder="Ime proizvoda" required />
-
-		<label for="kolicina">Kolicina</label>
-		<input type="number" name="kolicina" id="kolicina" placeholder="Kolicina" min="1" required />
-
-		<br />
-
-		<label for="email">Email</label>
-		<input type="email" name="email" id="email" placeholder="Email" pattern=".+@.+\.com" required />
-
-		<label for="broj_telefona">Broj telefona</label>
-		<input type="number" name="broj_telefona" id="broj_telefona" placeholder="Broj telefona" required />
-
-		<br />
-
-		<label for="potvrda">Posalji na kucnu adresu</label>
-		<input type="checkbox" name="potvrda" id="potvrda" value="potvrda" checked />
-
-		<br />
-
-		<input type="submit" name="naruci" id="naruci" value="NARUCI">
-
+		<table>
+				<tr>
+					<td><label for="ime_proizvoda">Ime proizvoda</label></td>
+				    <td><label for="kolicina">Kolicina</label></td>
+                </tr>	
+				<tr>
+                    <td><input type="text" name="ime_proizvoda" id="ime_proizvoda" placeholder="Ime proizvoda" required /></td>
+                    <td><input type="number" name="kolicina" id="kolicina" placeholder="Kolicina" min="1" required /></td>   
+                </tr>	
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><label for="broj_telefona">Broj telefona</label></td>
+                </tr>
+                <tr>
+                    <td><input type="email" name="email" id="email" placeholder="Email" pattern=".+@.+\.com" required /></td>
+                    <td><input type="number" name="broj_telefona" id="broj_telefona" placeholder="Broj telefona" /></td>
+                </tr>
+                <tr>
+                    <td><label for="potvrda">Posalji na kucnu adresu</label></td>
+                    <td><input type="checkbox" name="potvrda" id="potvrda" value="potvrda" checked /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" name="naruci" id="naruci" value="NARUCI"></td>
+                </tr>
+		</table>				
 	</form>
-
-
-
-
-
-
 </body>
 </html>
