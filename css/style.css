@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+}
+
+h3, h4, .main-box .box-title p, .main-box .contract p {
+  color: #174385;
+  font-family: Open Sans;
+}
+
+hr {
+    width: 180px;
+    margin: -10px auto;
+}
+
+.line {
+  border: 1px solid #edeff6;
+}
+
+/* Main-box */
+.main-box {
+  width: 200px;
+  height: 400px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* Header */
+.main-box .box-header {
+  height: 25px;
+  background-color: #174385;
+  margin: -10px 0 0 0;
+}
+
+.main-box .box-header p{
+  color: #fff;
+  line-height: 25px;
+  font-size: 10px;
+}
+
+/* Title */
+.main-box .box-title p {
+  margin: -15px auto;
+  font-size: 8px;
+  font-weight: 700;
+}
+
+/* Price */
+.main-box .price {
+  color: #d4864d;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 25px auto 0;
+}
+
+.main-box .price span, .main-box .price sup {
+  font-size: 20px;
+}
+
+/* Contract */
+.main-box .contract {
+  font-size: 8px;
+  margin: 25px auto 25px;
+}
+
+/* Buttons */
+.main-box .button a{
+  width: 170px;
+  margin: 10px auto;
+  line-height: 30px;
+  font-size: 9px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 700;
+}
+
+.main-box .button .first-button {
+    color: #fff;
+    background-color: #d4864d;
+}
+
+.main-box .button .second-button {
+    color: #9eabdb;
+    background-color: #edeff6;
+}
+
+/* Footer */
+.main-box .footer {
+  color: rgba(255, 0, 0, 0.2);
+  font-size: 8px;
+  margin: 15px auto;
+}
