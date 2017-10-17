@@ -1,3 +1,2 @@
-### Restorani
-
-Ovo je projekat o restoranima
+Vezba broj 1.
+Vezba sa navigacijama , linkovima , divovima , boxovima .
