@@ -1,0 +1,50 @@
+.white {
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.color {
+  background-color: red;
+}
+
+.color-two {
+  background-color: green;
+}
+
+.color-three {
+  background-color: blue;
+}
+
+.tabel-one {
+  width: 650px;
+  margin:150px auto 0 auto;
+}
+
+.tabel-two {
+  width: 650px;
+  margin:  20px auto;
+}
+
+.tabel-three {
+  width: 650px;
+  margin: auto;
+}
