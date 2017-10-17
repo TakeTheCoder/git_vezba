@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background-color: #dda683;
+}
+
+.navigacija {
+  background-color: #6d94d6;
+  text-align: right;
+  height: 50px;
+}
+
+.navigacija ul {
+  list-style: none;
+}
+
+.navigacija ul li {
+  display: inline;
+}
+
+.navigacija ul li a {
+  text-decoration: none;
+  line-height: 50px;
+  padding: 30px;
+  color: white;
+}
+
+.glavna-sekcija h1 {
+  text-align: center;
+  color: white;
+  margin: 50px 0 0 0;
+}
+
+.grb {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.glavna-sekcija ul {
+  list-style: none;
+  margin: 30px 50px ;
+  padding: 0;
+  text-align: center;
+}
+
+.glavna-sekcija li{
+  display: inline-block;
+  margin: 30px;
+}
+
+.glavna-sekcija li img {
+  height: 300px;
+  width: 300px;
+}
+
+.tekst {
+  border: 5px solid blue;
+  margin: 50px auto;
+  width: 450px;
+  height: 150px;
+  padding: 25px;
+  text-align: justify;
+  border-radius: 25px;
+}

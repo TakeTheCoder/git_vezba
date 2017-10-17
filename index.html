@@ -1,62 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Sve za dinar</title>
-</head>
-<body>
-
-<h1>Sve za dinar</h1>
-<h2>Sve Proizvodi</h2>
-
-<table border="1">
-  <thead>
-    <tr>
-      <th>Sifra</th>
-      <th>Ime</th>
-      <th>Cena</th>
-      <th>Kategorija</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>125</td>
-      <td>Cokolada</td>
-      <td>200</td>
-      <td>Slatkisi</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3>Cokolada</h3>
-<p>Cokolada je proizvedena u fabrici <b>Hisar</b> Prokuplje</p>
-
-<h2>Naruci</h2>
-<form action="" id="forma">
-
-  
-<table>
-  <tr>
-    <td><label for="ime">Ime Proizvoda</label></td>
-    <td><label for="kolicina">kolicina</label></td>
-  </tr>  
-  <tr>
-    <td><input type="text" name="ime" id="ime" placeholder="Ime Proizvoda" required /></td>
-    <td><input type="number" name="kolicina" id="kolicina" placeholder="Kolicina" required /></td>
-  </tr>
-  <tr>
-    <td><label for="email">Email</label></td>
-    <td><label for="broj_telefona">Broj telefona</label></td>
-  </tr>
-  <tr>
-    <td><input type="email" name="email" id="email" placeholder="Email" required /></td>
-    <td><input type="number" name="broj_telefona" id="broj_telefona" placeholder="Broj telefona" /></td>
-  </tr>
-</table>
-  <label for="kucna_adresa">Posalji na kucnu adresu</label>
-  <input type="checkbox" name="kucna_adresa" id="kucna_adresa" checked />
-</br>
-<input type="submit" name="submit" value="POSALJI" />
-</form>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Prokuplje</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  </head>
+  <body>
+    <div class="navigacija">
+      <ul>
+        <li><b><a href="index.html">POCETNA</a></b></li>
+        <li><b><a href="galerija.html">GALERIJA</a></b></li>
+        <li><b><a href="kontakt.html">KONTAKT</a></b></li>
+      </ul>
+    </div>
+    <div class="glavna-sekcija">
+      <div>
+        <h1><b>PROKUPLJE</b></h1>
+        <img src="slike/prokuplje1.png" class="grb" alt="" />
+      </div>
+    <div class="slike-prokuplja">
+      <ul>
+        <li><img src="slike/prokuplje2.jpg" alt=""></li>
+        <li><img src="slike/prokuplje3.jpg" alt=""></li>
+        </ul>
+    </div>
+    <div class="kutija">
+      <p class="tekst">Prokuplje je gradsko naselje u Srbiji
+         i sedište istoimene opštine i Topličkog
+        okruga. Prema popisu iz 2011. godine,
+        naseljeno mesto Prokuplje imalo je 27.333
+        stanovnika (prema popisu iz 2002. bilo je 27.673
+        stanovnika, dok je prema onom iz 1991.
+        bilo 28.303), dok cela opština Prokuplje
+        prema popisu iz 2011. godine ima 44.419 stanovnika
+        (prema popisu iz 2002. bilo je 51.698). Grad se
+        razvio na mestu antičkog Hameuma, a svoj naziv
+        je dobio po Crkvi Svetog Prokopija, koja potiče
+        iz X veka.</p>
+    </div>
+  </div>
+  </body>
 </html>

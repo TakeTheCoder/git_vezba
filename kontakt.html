@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Kontakt</title>
-</head>
-<body>
-<a href="index.html">Nazad na Glavnu stranicu</a>
-<h1>Kontakt</h1>
-<form action="">
-  
-  <label for="ime">Ime: </label>
-  <input type="text" name="ime" id="ime" autofocus />
-
-</br>
-</br>
-
-  <label for="prezime">Prezime: </label>
-  <input type="text" name="prezime" id="prezime" />
-
-</br>
-</br>
-
-  <label for="email">Email: </label>
-  <input type="email" name="email" id="email" required />
-
-</br>
-</br>
-
-<label for="poruka">Poruka:</label>
-<textarea name="poruka" id="poruka" required minlength="40"></textarea>
-
-</br>
-</br>
-
-<label for="punoletan-sam">Imam vise od 18 god.</label>
-<input type="checkbox" name="punoletan-sam" id="punoletan-sam" checked />
-
-</br>
-</br>
-
-<input type="submit" name="posalji" id="posalji" value="Posalji" />
-
-</form>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Kontakt</title>
+    <link rel="stylesheet" type="text/css" href="css/kontakt.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  </head>
+  <body>
+    <div class="navigacija">
+      <ul>
+        <li><b><a href="index.html">POCETNA</a></b></li>
+        <li><b><a href="galerija.html">GALERIJA</a></b></li>
+        <li><b><a href="kontakt.html">KONTAKT</a></b></li>
+      </ul>
+    </div>
+    <div class="kontakt">
+          <h1>Kontakt</h1>
+          <form action="">
+            <table>
+              <tr>
+                <td><strong class="bela">Ime i prezime:</strong></td>
+                <td><input placeholder="ime i prezime" name="Name" type="text" /></td>
+              </tr>
+              <tr>
+                <td><strong class="bela">Adresa: </strong></td>
+                <td><input placeholder="adresa" name="adresa" type="text" /></td>
+              </tr>
+              <tr>
+                <td><strong class="bela"> Telefon: </strong></td>
+                <td><input placeholder="telefon" name="telefon" type="text" /></td>
+              </tr>
+              <tr>
+                <td><strong class="bela"> Email: </strong></td>
+                <td><input placeholder="email" name="Email" type="text" /></td>
+              </tr>
+              <tr>
+                <td><strong class="bela"> Pitanje: </strong></td>
+                <td><textarea  placeholder="postavite pitanje" name="comments"></textarea></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input class="dugme" type="submit" name="submit" value="Posalji" /></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+  </body>
 </html>
