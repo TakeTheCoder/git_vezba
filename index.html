@@ -1,79 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Sve za dinar</title>
-</head>
-<body>
-  <h1>Sve za dinar</h1>
-  <h2>Svi proizvodi</h2>
-  <table>
-	 <thead>
-		<tr>
-		  <th>Sifra</th>
-			<th>Ime</th>
-			<th>Cena</th>
-			<th>Kategorija</th>
-		</tr>
-	 </thead>
-	 <tbody>
-		<tr>
-			<td>0387</td>
-			<td>Virsle</td>
-			<td>99.99</td>
-			<td>Suhomesnatno</td>
-		</tr>
-		<tr>
-			<td>0400</td>
-			<td>Mesni narezak</td>
-			<td>120.80</td>
-			<td>Suhomesnatno</td>
-		</tr>
-		<tr>
-			<td>4500</td>
-			<td>Posebna Salam</td>
-			<td>200.48</td>
-			<td>Suhomesnatno</td>
-		</tr>
-	 </tbody>
-  </table>
-  <br />
+  <head>
+    <meta charset="utf-8">
+    <title>Vezba1</title>
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body>
+    <!-- Glavna-navigacija -->
+    <div class="glavna-navigacija">
+      <a href="kuca.html">KUCA</a>
+      <a href="kontakt.html">KONTAKT</a>
+      <a href="o-nama.html">O NAMA</a>
+    </div>
 
-  <h3>Vrsle</h3>
-	<p>Virsle su domaca proizvodnja Carnex firme koja se nalazi u Doljevcu i vlasnik je pevac iz zvezde granda Nemanja Nikolic. Vrlo su ukusne i pikantne.</p>
-  <br />
+    <!-- Glavna-sekcija -->
+    <div class="glavna-sekcija">
+      <p class="preporuceno">Recommended</p>
+      <h3 class="naslov">Team</h3>
+      <p class="cena">$49 <span class="po-mesecu">per month</span></p>
+      <hr />
+      <ul class="stavke-o-timu">
+        <li class="stavka">5 <span class="stavka-naziv">websites</span></li>
+        <li class="stavka">20<span class="stavka-velicina">GB</span> <span class="stavka-naziv">storage</span></li>
+        <li class="stavka">10 <span class="stavka-naziv">users</span></li>
+      </ul>
+      <a href="#" class="dugme">Choose Plan</a>
+    </div>
 
-  <h3>Mesni Narezak</h3>
-	<p>Mesni narezak "poslednji svinjski grokat" je nova firma koja nam dolazi iz Vranja. Pruzaju nam nesto novo , a to je mesni narezak u 1000 ukusa , kao i mnogo druge proizvode koje imamo u asortimanu.</p>
-	<br />
-
-  <h3>Posebna salama</h3>
-	<p>Kao sto samo ime kaze, ovo je posebna salama i treba se posebno tretirati, seci je iskljucivo laserskim putem i pod totalnom anestizijom.</p>
-	<br />
-	<br />
-  <h2>NARUCI</h2>
-  <form action="porudzbine" id="porudzbine">
-    <label for="text">Ime proizvoda:</label>
-  	<br />
-  	<input type="text" name="text" id="text" required placeholder="Ime prozivoda">
-  	<br />
-  	<label for="kolicina">Kolicina:</label>
-  	<br />
-  	<input type="number" name="number" id="kolicina" required placeholder="Kolicina">
-		<br />
-
-  	<label for="email">Email</label>
-  	<br />
-  	<input type="email" name="email" id="email" required placeholder="Email">
-  	<br />
-  	<label for="telefon">Telefon:</label>
-  	<br />
-  	<input type="tel" name="usertel" id="telefon" placeholder="Telefon">
-		<br />
-  	<label for="dostava">Posalji na kucnu adresu?</label>	
-  	<input type="checkbox" name="checkbox" id="dostava" checked="">
-		<br />
-    <input type="submit" name="submit" value="NARUCI">
-
-  </form>
-</body>
+    <!-- Zaglavlje -->
+    <div class="zaglavlje">
+      <a href="kontakt.html">KONTAKT</a>
+      <a href="o-nama.html">O NAMA</a>
+    </div>
+  </body>
 </html>

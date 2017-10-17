@@ -1,0 +1,107 @@
+body  {
+  margin: 0;
+  height: 100%;
+  background-color: #e3e3d7;
+}
+
+.header {
+  background-color: #d7d71d;
+  height: 50px;
+  text-align: center;
+}
+
+.header ul {
+  margin: 0;
+  padding: 14px;
+  list-style: none;
+}
+
+.header ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.href-spacing {
+  padding: 0 80px 0 80px;
+}
+
+.box1 , .box2 {
+  margin: 100px;
+  width: 160px;
+  height: 290px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #0f0f0a;
+
+}
+
+.header-project {
+  color: #3399ff;
+  font-size: 20px;
+  margin: 20px 0 5px 0;
+}
+
+.price  {
+  color: #ff6600;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 10px 0 5px 0;
+}
+
+.octobar {
+  font-weight: normal;
+  font-size: 12px;
+  color: #bfbfbf;
+}
+.line {
+  border: 1px solid #e6e6e6;
+}
+
+.our-packet {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+.number {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.letter {
+  font-weight: normal;
+  font-size: 15px;
+  color: #595959;
+}
+
+.number1 {
+  padding: 0 0 0 30px;
+}
+
+.number2 {
+  padding: 0 20px 15px 0;
+}
+
+.chose_plan {
+  background-color: #ff6600;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 4px;
+  color: white;
+  padding: 0 5px 0 5px;
+}
+
+.started-list {
+  width: 400px;
+  display: inline-block;
+  margin: 0;
+}
+
+.recommended-list {
+  display: inline-block;
+}
