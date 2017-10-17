@@ -1,0 +1,85 @@
+.no-margin {
+  margin: 0;
+}
+.decoration-none{
+  text-decoration: none;
+}
+.text-centar {
+  text-align: center;
+}
+.bela {
+  color: white;
+}
+
+.size30 {
+  font-size: 30px;
+}
+
+.plava {
+  color: #00264d;
+}
+
+.nav-coin {
+  margin: 0 500px 0 500px;
+  display: inline;
+}
+
+.dugme {
+  background-color: orange;
+  height: 35px;
+  width: 150px;
+  border: 0;
+  padding: 0;
+}
+
+.valuta {
+  color: white;
+}
+.main-sectiona {
+  width: 250px;
+  border: 2px;
+  margin: 55px auto;
+  border: 1px solid lightgrey; 
+  background-color: white;
+}
+
+.navi-box {
+  height: 30px;
+  padding: 7px 0 0 0;
+  background-color: #00264d;
+}
+
+.packet-level {
+  margin: 30px 0 0 0;
+}
+
+.best {
+  margin: 0 0 30px 0;
+}
+
+.price {
+  color: orange;
+  font-size: 60px;
+  margin: 0 0 10px 0;
+}
+
+hr {
+  margin: 20px 25px 0 25px;
+}
+
+.what-i-got {
+  color: #e0ebeb;
+}
+
+.poruci {
+  margin: 0 0 10px 0;
+}
+
+.siva-pozadina {
+  background-color: #f0f5f5;
+  color: grey;
+}
+
+.crvenkasto {
+  color: #ff9999;
+}
