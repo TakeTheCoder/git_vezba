@@ -7,16 +7,25 @@
 .text-centar {
   text-align: center;
 }
-.bela {
-  color: white;
-}
 
 .size30 {
   font-size: 30px;
 }
 
+.bela {
+  color: white;
+}
+
 .plava {
   color: #00264d;
+}
+
+.svetlo-siva {
+  color: lightgrey;
+}
+
+.crvenkasto {
+  color: #ff9999;
 }
 
 .nav-coin {
@@ -74,8 +83,4 @@ hr {
 .siva-pozadina {
   background-color: #f0f5f5;
   color: grey;
-}
-
-.crvenkasto {
-  color: #ff9999;
 }
