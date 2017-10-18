@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.levo {
+  position: relative;
+  top: 380px;
+  left: 0;
+  display: inline-block;
+}
+.levo h2 {
+  display: inline-block;
+}
+
+.desno {
+  position: absolute;
+  top: 388px;
+  right: 0;
+}
+
+.gore {
+  position: fixed;
+  top: 0;
+  margin: 0;
+}
+
+.dole {
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+}
