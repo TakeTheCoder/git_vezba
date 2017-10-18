@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.jedan {
+  position: fixed;
+  top: 50%;
+  left: 0;
+
+}
+
+.dva {
+  position: fixed;
+  top: 50%;
+  right: 0;
+}
+
+.tri {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+
+.cetiri {
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%
+}
