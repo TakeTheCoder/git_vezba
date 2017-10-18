@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  color: white;
+  text-align: center;
+}
+
+.main {
+  position: relative;
+}
+
+.main .prvi {
+  background-color: #CE5C00;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 300px;
+}
+
+.main .drugi {
+  background-color: #776B76;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  right: 0;
+  top: 300px;
+}
+
+.main .treci {
+  background-color: #663C7C;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.main .cetvrti {
+  background-color: #DC4C54;
+  height: 200px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
